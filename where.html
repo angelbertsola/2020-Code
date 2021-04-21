@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+ <link href="index.css" rel="stylesheet" type="text/css">
+	<title>Botswana</title>
+q	<image src ="Images/IMG_4982.JPG"width ="1440" height ="880" alt="zzz" title ="zzz">
+  
+    <ul>
+      <li><a href="Botswana.html">Home</a></li>
+         <li><a href="why.html">Why Botswana</a></li>
+         <li><a href="culture.html">CULTURE in Botswana</a></li>
+         <li><a href="where.html">Places to visit</a></li>
+         <li><a href="Aboutme.html">About Me</a></li>
+         <li><a href="Bibliography.html">Bibliography</a></li>
+         <li><a href="Home.html">Back</a></li>
+  </ul> 
+
+</head>
+<style>
+
+p{
+	text-align: justify;
+	font-family: Arial,sans-serif;
+  	font-size: 25px;
+  	margin: 25px 50px 75px;
+  	color:white;
+  	padding: 16px 18px;
+  	list-style-type: none;
+  	overflow: hidden;
+  	background-color: #333;
+  }
+h1{
+  color: yellow;
+  text-align: center;
+  font-family: Herculanum,sans-serif;
+  text-transform:uppercase
+  }
+
+h2{
+  color: yellow;
+  text-align: center;
+  font-family: Herculanum,sans-serif;
+  text-transform:uppercase
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#333; 
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color:white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:none; 
+  text-transform:uppercase;
+  font-family: Arial,sans-serif;
+
+
+}
+
+li a:hover{
+  background-color: #111;
+}
+
+figure{
+  position:relative;
+  left: 50px;
+  top: 50px;
+
+
+}
+.flex-container {
+  /*display: flex;
+  flex-wrap: nowrap;*/
+ }
+
+.flex-container  div {
+  background-color: #f1f1f1;
+  width: 1405px;
+  margin:10px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 25px;
+  font-family: Arial,sans-serif;
+}
+.img1 img{
+	float: right;
+}
+
+blockquote{
+	text-align: center;
+}
+body{
+	background-image: url('Images/104893-Safari-Close.jpg');
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+<br>
+<body>
+<h2>Makgadikgadi Pans in Botswana</h2>
+<image src ="Images/download (2).jpeg" style= "width:100%">
+<p><a href="https://www.discoverafrica.com/blog/a-travelers-guide-to-the-makgadikgadi-pans-national-park/">The Makgadikgadi</a> is an extraordinary region of Botswana, characterized by inhospitable salt pans stretching as far as the eye can see, rocky granite islands and open grasslands that spring to life in the wet season. Plains surrounding the saltpans are dotted with ostrich, zebra, springbok and oryx, closely pursued by dark-maned lions. There are beautiful clusters of palm trees and odd stunted baobabs that have stood for millions of years.
+<br>
+The Makgadikgadi pans are all that is left of an enormous ancient lake that was once fed by the Okavango, Chobe and Zambezi Rivers, running south-eastwards via the Limpopo River and into the Indian Ocean. These watercourses changed over time, influenced by the tectonic shifting of the unpredictable Kalahari-Zimbabwe fault-line and also by a gradual rise of temperature, perhaps as a result of climate change.
+</p>
+  <image src ="Images/5f9cab8998785ac30a9063986c89227a.jpg"width ="564" height ="845" alt="zzz" title ="zzz">
+			<image src ="Images/8af13f981278bb0bee38d44f88764952.jpg"width ="564" height ="845" alt="zzz" title ="zzz">
+					<image src ="Images/a2fcec6d906a3c8205f1edf8b5388fb0.jpg"width ="564" height ="847" alt="zzz" title ="zzz">
+
+       <image src ="Images/bf136841812a6278cc031df7f63b6550.jpg"width ="564" height ="847" alt="zzz" title ="zzz">
+			<image src ="Images/9ad1c628a8523764244a0f296cbc2c38.jpg"width ="564" height ="847" alt="zzz" title ="zzz">
+				<image src ="Images/615f1ab472caf4c919a1d26f0242f5b4.jpg"width ="564" height ="847" alt="zzz" title ="zzz">
+					<image src ="Images/a7639b429a4b3b174c00a0c8a78aaaf2.jpg"width ="564" height ="847" alt="zzz" title ="zzz">
+              <image src ="Images/01c0597611bf8007884ba786bd992291.jpg"width ="564" height ="847" alt="zzz" title ="zzz">  
+<br>
+<h2>What to do in the Makgadikgadi</h2>
+
+<image src ="Images/quad-biking-makgadikgadi-botswana-safari__landing_large.jpg"width ="1100" height ="531" alt="zzz" title ="zzz">
+<p>Among the many things to do in the Makgadikgadi Nationals Park are safari rides, game drives, birdwatching, tour of the Gweta as well as sight wildlife such as eland, lions, zebras, cheetah, gemsbok, springbok, red hartebeest bushbuck, giraffe, steenbok, elephants and many more.  
+
+However, experience the view of large herds of antelope converging on the great lakes to drink water and play. Encounter Bushmen trackers that will take you on guided walks to historical sites as well as you will learn about the connection between their ancient culture and the natural environment.</p>
+
+<h2>The Kalahari Desert</h2>
+
+<image src ="Images/namibia-desert.jpg"style= "width:100%">
+
+<p>The <a href="https://www.bwindiugandagorillatrekking.com/kalahari-desert/">Kalahari</a> Desert is a large semi-arid sandy savannah in Southern Africa extending for 900,000 square kilometres (350,000 sq mi), covering much of Botswana, parts of Namibia and regions of South Africa.
+
+It is not to be confused with the Angolan, Namibian and South African Namib coastal desert, whose name is of Khoekhoegowab origin and means "vast place".
+<br>
+Kalahari is derived from the Tswana word Kgala, meaning "the great thirst", or Kgalagadi, meaning "a waterless place"; the Kalahari has vast areas covered by red sand without any permanent surface water.
+<br>
+Drainage of the desert is by dry valleys, seasonally inundated pans and the large salt pans of the Makgadikgadi Pan in Botswana and Etosha Pan in Namibia. The only permanent river, the Okavango, flows into a delta in the northwest, forming marshes that are rich in wildlife. Ancient dry riverbeds—called omuramba—traverse the central northern reaches of the Kalahari and provide standing pools of water during the rainy season.
+
+A semi-desert, with huge tracts of excellent grazing after good rains, the Kalahari supports more animals and plants than a true desert, such as the Namib Desert to the west. There are small amounts of rainfall and the summer temperature is very high. The driest areas usually receive 110–200 millimetres (4.3–7.9 in) of rain per year,and the wettest just a little over 500 millimetres (20 in). The surrounding Kalahari Basin covers over 2,500,000 square kilometres (970,000 sq mi) extending further into Botswana, Namibia and South Africa, and encroaching into parts of Angola, Zambia and Zimbabwe.
+
+Numerous pans exist within the Kalahari, including the Groot-vloer Pan and Verneukpan where evidence of a wetter climate exists in the form of former contouring for capturing of water. This and other pans, as well as river bottoms, were written about extensively at Sciforums by an article by Walter Wagner regarding the extensive formerly wet areas of the Kalahari. The Kalahari is extensive and extends further north where abandoned extensive roadways also exist.</p>
+<br>
+ <div class="center">
+				<image src ="Images/839dbacd8894f4500acf9dd46fb228cc.jpg"width ="720" height ="537" alt="zzz" title ="zzz">
+</div>			
+
+<p>North and east, approximately where the dry forests, savannahs and salt lakes prevail, the climate is sub-humid rather than semi-arid. South and west, where the vegetation is predominantly xeric savanna or even a semi-desert, the climate is "Kalaharian" semi-arid. The Kalaharian climate is subtropical (average annual temperature greater than or equal to 18 °C, at peaks reaching 40 °C and above, with mean monthly temperature of the coldest month strictly below 18 °C), and is semi-arid with the dry season during the "cold" season, the coldest six months of the year. It is the southern tropical equivalent of the Sahelian climate with the wet season during summer. The altitude has been adduced as the explanation why the Kalaharian climate is not tropical; its altitude ranges from 600 to 1600 meters (and generally from 800 to 1200 meters), resulting in a cooler climate than that of the Sahel or Sahara. For example, winter frost is common from June to August, something rarely seen in the warmer Sahelian regions.For the same reason, summer temperatures certainly can be very hot, but not in comparison to regions of low altitude in the Sahel or Sahara, where some stations record average temperatures of the warmest month around 38 °C, whereas the average temperature of the warmest month in any region in the Kalahari never exceeds 29 °C, though daily temperatures occasionally reach up to close to 45 °C (113 °F) (44.8 °C at Twee Rivieren Rest Camp in 2012).
+
+
+Heavy thunderstorm near Stampriet
+The dry season lasts eight months or more, and the wet season typically from less than one month to four months, depending on location. The southwestern Kalahari is the driest area, in particular a small region located towards the west-southwest of Tsaraxaibis (Southeast of Namibia). The average annual rainfall ranging from around 110 mm (close to aridity) to more than 500 mm in some areas of the north and east. During summer time in all regions rainfall may go with heavy thunderstorms. In the driest and sunniest parts of the Kalahari, over 4,000 hours of sunshine are recorded annually on average.
+
+In the Kalahari, there are two main mechanisms of atmospheric circulation, dominated by the Kalahari High anticyclone:
+
+The North and North-west of the Kalahari is subject to the alternation "Intertropical Convergence Zone (ITCZ)/"Continental Trade winds". The ITCZ is the meeting area of the boreal trade winds with their austral counterparts what meteorologists call "Meteorological equator" and the sailors "Doldrum" or "Pot-au-noir" : the ITCZ generates rains in the wet season, whereas the continental trade winds cause the dry season;
+The rest of the Kalahari is subject to the maritime trade winds, that largely shed their moisture as they cross up and over the Southern African Great Escarpment before arriving over the Kalahari.
+There are huge subterranean water reserves beneath parts of the Kalahari; the Dragon's Breath Cave, for example, is the largest documented non-subglacial underground lake on the planet. Such reserves may be in part the residues of ancient lakes; the Kalahari Desert was once a much wetter place. The ancient Lake Makgadikgadi dominated the area, covering the Makgadikgadi Pan and surrounding areas, but it drained or dried out some 10,000 years ago. It may have once covered as much as 120,000 square kilometres (46,000 sq mi).In ancient times, there was sufficient moisture for farming, with dikes and dams collecting the water. These are now filled with sediment, breached, or no longer in use, though they can be readily seen via Google Earth.
+
+The Kalahari has had a complex climatic history over the past million or so years, in line with major global changes. Changes in the last 250,000 years have been reconstructed from various data sources, and provide evidence of both former extensive lakes and periods drier than now. During the latter the area of the Kalahari has expanded to include parts of western Zimbabwe, Zambia and Angola.
+</p>
+
+
+<h2>Please click the arrow below to start the slideshow.</h2>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="Images/5e662fa8ab393cd292f5751c_SafariDrive-Namibia-Three-Countries.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="Images/5d837efbac1ca5d585c0a458_Namib-Rand-Hideout.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="Images/506.jpeg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 6</div>
+    <img src="Images/blue-wildebeest-running-820x509.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="Images/2866.jpg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+    <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="Images/download (3).jpeg" style="width:100%">
+    <div class="text"></div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<h2>Chobe National Park</h2>
+
+<p>A Chobe holiday offers the safari-enthusiast the best of Africa’s bush and wildlife. From the legendary Savuti lion pride, to the elephant herds that dot the landscapes with their majestic presence. Curate your safari experience and let us do the rest for you. It couldn’t be more easy.
+<br>
+The Riverside is also close to the most accessible point of entry to the park, the town of Kasane, and is popular with families, couples and solo travellers alike. Lodges and accommodation are scattered along the Chobe River – most establishments are not within the boundaries of the park itself and a couple are even on the other side of the river, in neighbouring Namibia. There is also the option of a tented or mobile safari to consider: operators set up camp – some a lot more luxurious than you might expect – in a private space within the park, which means no rush for the gate on the early morning game drive.
+</p>
+
+	<image src ="Images/735718_452987644761801_421532106_o.jpg" style= "width:80%">
+		<image src ="Images/file.jpg" style= "width:80%">
+			<image src ="Images/Makgadikgadi_Pans_National_Park_Botswana_228734.jpg" style="width:80%">
+				<image src ="Images/Walk-Botswana-Wildebeest.jpg" style="width:80%">
+		
+<br>
+<br>
+
+<h2>Okavango Delta</h2>
+<iframe width="923" height="487" src="https://www.youtube.com/embed/__lYWslv7W4?list=LL0blXk1cDw6cQKfcqVGrhOw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p>The <a href="https://https://www.okavangodelta.com//">Okavango Delta</a> safari guide.Botswana’s world-famous Okavango Delta, also known as the “Jewel of the Kalahari”, could easily be the most pristine oasis in the world. The Okavango River finds its origins in the highlands of Angola, in a catchment area of about 112,000 km2. From here it begins a winding journey of 1,900 km before fanning out into an intricate system of waterways covering 22,000 km of Kalahari sand; a phenomenon that can be observed by astronauts in space. Although the river would have once reached the ocean, today it is swallowed up by a thirsty basin of white Kalahari sand, creating an effect that resembles an outstretched emerald hand, or more correctly referred to by scientists as an “alluvial fan”.
+<br>
+The Okavango Delta is one of the world’s best wildlife regions, not just for its great game viewing, but as a general triumph in conservation. Much of its success is down to tireless, careful management and an overriding conviction that successes must be shared. Botswana has long operated a low-density tourism model, allowing a limited number of camps and lodges who then operate at a premium. This can quickly ramp up the cost of a safari to Botswana, but local communities are included and significant revenue is shared. In the Delta, you’ll find some of the world’s wildest and most spectacular game lodges and although prices can be high, it is the price of success. When you visit the Delta, the surrounding communities see value, which keeps poaching low and general encroachment at a minimum.
+</p>
+ 
+<image src ="Images/Mokoro-Okavango-Delta.jpg" style="width:100%">
+<image src ="Images/Botswana_OkavangoDelta_DesertAndDelta_XuganaIslandLodge_Wildlife_Bird_MalachiteKingfisher.jpg" style="width:100%">
+<image src ="Images/bitswana-hyena-animal-1240x826.jpg" style="width:100%">
+<image src ="Images/Banner6.jpg" style="width:100%">
+</div>					
+
+<h2>Gaberone</h2>
+<p>Depending on your perspective, low-key Gaborone (or Gabs to its friends) is either terribly unexciting or one of Africa's more tranquil capital cities. There aren’t that many concrete reasons to come here – it’s a world of government ministries, shopping malls and a seemingly endless urban sprawl – and most travellers can fly to Maun or cross overland elsewhere. Yet, it can be an interesting place to take the pulse of the nation.
+
+The city is largely a modern creation, with little sense of history to provide interest. Indeed, ask Batswana who were born and raised in Gaborone where they’re from, and they may well tell you the name of a family village or cattle post they’ve never seen. So while the local Batswana may not see Gaborone as a traditional family ‘home’, they do see it as the place where their future, and that of their nation, is forged.</p>
+
+
+<image src ="Images/gaborone-normal.jpg" style="width:100%">
+<image src ="Images/3c62457d141bb78bd7f3ac97c275ab1f.jpg" style="width:100%">
+<image src ="Images/Gaborone_skyscraper.jpg" style="width:100%">
+<image src ="Images/183597813.jpg" style="width:100%">
+
+
+
+<br>
+	<a href="https://www.mokolodi.com/">
+	<h2>Mokolodi Nature reserve</h2>
+</a>
+	 <div class="center">
+	<image src ="Images/mokolodi.jpeg"width ="200" height ="200" alt="zzz" title ="zzz">
+	</div>	
+	<br>  
+	<p><a href="https://www.mokolodi.com/">Mokolodi Nature Reserve</a> is a private not-for-profit game reserve in southern Botswana. Founded in 1994 by The Mokolodi Wildlife Foundation, it is situated on 30 km sq. of donated land 10 km south of the capital Gaborone. The nature reserve is inhabited by a wide variety of indigenous African game, bird and reptile species, some of which are rare and vulnerable to the threat of extinction. The southern white rhinoceros herd at Mokolodi Nature Reserve is part of a national breeding programme, which contributes to the rebuilding of the national herd in Botswana.
+
+Environmental and conservation education are the key objectives of The Mokolodi Wildlife Foundation. The nature reserve hosts children from across Botswana, some of whom are from disadvantaged backgrounds. The fee-based activity and accommodation services offered to the public by Mokolodi Nature Reserve support the Foundation's charitable objectives, to present the children of Botswana with the opportunity to embrace the natural world and to promote the wider protection of Botswana's natural environment.
+
+The reserve contains many species of wildlife such as giraffe, zebra, southern white rhinoceros, mountain reedbuck, red hartebeest, gemsbok, kudu, impala, waterbuck, hippopotamus, nile crocodile, brown hyena and leopard. Within the confines of the reserve there are large enclosures housing cheetah and spotted hyena. There is also a reptile park containing black mamba, mozambique spitting cobra, puff adder and snouted cobra amongst other species, as well as an aviary with rescued white-backed vulture and cape vulture. The reserve is developed as a game sanctuary with an extensive network of paths, which permits viewing the wild life at close quarters. The park administration is planning to expand its limits of conservation area up to the Lion Park.</p>	
+
+<image src ="Images/img_3785.jpg" style="width:100%">
+<image src ="Images/40293621600_58e197597c_b.jpg" style="width:100%">
+		<image src ="Images/5346949634_26351dcc92_b.jpg" style="width:100%">
+				<image src ="Images/Zebras.jpg" style="width:100%">
+					<image src ="Images/674315003_218416b0de_z.jpg" style="width:100%">
+						<image src ="Images/500px-Overlooking_Mokolodi_Nature_Reserve.jpg" style="width:100%">
+</di>							
+
+
+</body>
+<footer>
+<ul>
+	<li><a href="Aboutme.html">Next</a></li>
+	<li><a href="Botswana.html">Back</a></li>
+</ul>	
+</footer>
+</html>

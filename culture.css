@@ -1,0 +1,213 @@
+/*.topimg{
+ width: 100%;
+ height: 30em;
+}*/
+.logo{
+    float:left;
+    height: 75px;
+    background-color: azure;
+   }
+   .type1{
+    box-shadow: 10px 10px 25px 5px black;
+    width: 95%;
+    border: 5px solid white;
+    margin: 25px auto;
+    background-color: #FFFACD;
+	}
+   .heading2{
+    font-size: 2em;
+    text-indent: 1em;
+    padding: 0px;
+    margin-left: 5px;
+    
+}
+
+.heading3{
+    text-indent: 1.25em;
+    padding: 0px;
+    margin: 0px;
+}
+
+.imagecontainer{
+    background-image: url("../Images/Pashupati_Temple.jpg");
+    background-size:95% 30vw;
+    position: relative;
+
+    height:30vw;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+
+}
+.text{
+    background-color: #FFFACD;
+    color: black;
+    font-size: 5vw;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    mix-blend-mode: screen;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    width: 50%;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+.mainbody{
+    margin-top: 30vw;
+    box-shadow: 10px 10px 25px 5px black;
+    width: 95%;
+    border: 5px solid white;
+    background-color: white;
+    padding-left:2%;
+}
+.mainbody img{
+    width: 100%;
+    max-width: 250px;
+    height: 90%;
+    max-height: 200px;
+    margin: 2%;
+    float: right;
+}
+.navbar{
+    display: inline-block;
+    background-color:#7F4D54;
+    padding: 0.5vw;
+    margin-top:8px;
+    text-decoration: none;
+    width: 80%;
+    margin-left:30px;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+    
+    
+
+
+}
+.navbar a{
+       
+        /*color:#FFFACD ;*/
+        color:#288387 ;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 10px;
+        font-weight: bold;
+        font-size: 12;
+        font-family: Arial;
+           
+}
+.navbar a:hover{
+    color: skyblue;
+    /*transform: scale3d(2);*/
+    text-decoration: underline;
+
+}
+.rightside{
+    float: right;
+    width: 20%;
+    clear: right;
+    height: 100%;
+    overflow-x: hidden;
+    margin-top: 0.5em;}
+
+.rightside>ul{
+    list-style-type: none;
+}
+.rightside, .nav1, li{
+    font-family: serif; 
+    font-weight: bold;
+    margin-top: 1em;
+}
+.rightside a {
+    color: cadetblue;
+    
+}
+.nav1 ul{
+	padding:20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.nav1 ul>li{
+	list-style: none;
+
+}
+.nav1 img{
+	width: 100%;
+	max-width: 270px;
+	height: 80%;
+	max-height: 220px;
+	-webkit-filter: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	
+}
+
+.nav1 img:hover {
+	-webkit-filter: scale(1.3);
+	transform: scale(1.3);
+}
+.nav1 p{
+    font-family: Arial;
+    font-weight: normal;
+
+}
+
+
+}
+.nav2 ul{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+
+}
+.nav2 ul>li{
+	list-style: none;
+	text-decoration: none;
+}
+.nav2 img{
+	width: 100%;
+	max-width: 250px;
+	height: 90%;
+	max-height: 200px;
+	-webkit-filter: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.nav2 img:hover {
+	-webkit-filter: scale(1.3);
+	
+	transform: scale(1.3);
+}
+hr{
+	overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+
+}
+
+footer{
+	 background-image: linear-gradient(45deg, rgba(0,0,0), rgba(0,128,255), rgba(0,191,255), rgba(255,255,255));
+    width: 95%;
+    margin-right: 2%;
+    padding: 20px;
+    border-top: 2px solid black;
+    clear: both;
+    font-family: serif;
+    font-style: oblique;
+    text-align: center;
+    position: initial;
+
+}
